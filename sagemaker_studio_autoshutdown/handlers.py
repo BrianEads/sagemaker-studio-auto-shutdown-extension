@@ -87,7 +87,7 @@ class RouteHandler(APIHandler):
             self.log.error("Error: " + str(e))
 
 
-# Function to setup the web handdlers
+# Function to setup the web handlers
 def setup_handlers(web_app, url_path):
     global base_url
 

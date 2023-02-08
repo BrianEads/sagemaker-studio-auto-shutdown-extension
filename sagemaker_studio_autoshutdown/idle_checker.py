@@ -238,7 +238,7 @@ class IdleChecker(object):
                 # Check if app is active and kill
                 # Check if the current app is part of the in service apps
                 if app_name not in inservice_apps:
-                    # Regsiter a new inservice app
+                    # Register a new inservice app
                     inservice_apps[app_name] = time.time()
  
                 else:
